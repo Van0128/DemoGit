@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TaskOne</string>
+    <string-array name="Heading">
+        <item>Thu Tiền</item>
+        <item>Chi Tiền</item>
+        <item>Chuyển Khoản</item>
+    </string-array>
+    <string-array name="Category_Expenses">
+        <item>Ăn Uống</item>
+        <item>Mua Sắm</item>
+        <item>Xe Cộ</item>
+    </string-array>
+    <string-array name="Account">
+        <item> Ví </item>
+        <item> Thẻ ATM </item>
+        <item> Tài Khoản đầu tư </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.example.anhchan.taskone.Hello_World">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:text="Ngày tạo:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColorHighlight="@color/colorBackground"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:text="Số Tiền:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColorHighlight="@color/colorBackground"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Mục Chi:"
+        android:textColor="@color/colorBackground"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/SpnCtgrExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:text="Tài Khoản:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+    <Spinner
+        android:id="@+id/SpnCtgrAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:text="Diễn Giải:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColorHighlight="@color/colorBackground"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:text="Lưu"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+</LinearLayout>

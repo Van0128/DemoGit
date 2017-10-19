@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_weight="3"
+            android:id="@+id/ImgbtnMenuBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            android:src="@drawable/menubar"
+            />
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/SpnCtgrHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            android:padding="5dp"
+            android:textAlignment="center"></Spinner>
+        <ImageButton
+            android:layout_weight="3"
+            android:id="@+id/ImgbtnUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground"
+            android:src="@drawable/user"
+            />
+</LinearLayout>
